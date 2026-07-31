@@ -1,7 +1,28 @@
 aid: orchestra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orchestra.png
 name: Orchestra
-description: Orchestra is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Orchestra is an agentic operations platform for drug development and life
+  sciences R&D organizations. The software helps biotech and pharmaceutical
+  teams unify planning, automate operations, and reduce the risks that derail
+  breakthrough science by creating centralized roadmaps across leadership,
+  programs, and scientific groups, applying AI agents to operational
+  automation, and delivering data-driven decision support across scenarios,
+  planning, and CRO management. Orchestra is a portfolio company of 8vc and is
+  tracked in the API Evangelist network as a company profile. As of this
+  enrichment pass the company operates a marketing and product site only and
+  publishes no public developer API, OpenAPI specification, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/orchestra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Life Sciences
+- Drug Development
+- R&D Operations
+- Biotech
+- Pharmaceutical
+- AI Agents
+- Operations Platform
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/orchestra-domain-security.yml
 - type: Website
   url: https://orchestra.bio
+- type: Blog
+  url: https://orchestra.bio/blog
+- type: Support
+  url: https://orchestra.bio/contact
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
